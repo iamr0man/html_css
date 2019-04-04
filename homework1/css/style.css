@@ -1,0 +1,72 @@
+.header1 {
+     margin-top: 20px;
+     width: 100%;
+}
+
+.key {
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 80px;
+    font-size: 18pt;
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #16a085;
+    font-family: 'Courier';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.conteiner {
+    
+    background-color: #f5f6f7;
+    text-align: center;
+    padding-top: 20px;
+    height: 850px;
+}
+
+.title h1 {
+    font-family: 'Courier';
+    font-size: 22pt;
+}
+
+.text-info {
+    text-align: center;
+    font-family: 'Courier';
+    font-size: 16pt;
+    margin: 110px 110px 41px 110px;
+    
+}
+
+.button img {
+    position: absolute;
+    margin-bottom: 94px; 
+ 
+}
+
+.button a {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 16px;
+    right: -50px;
+    color: white; 
+}
+
+
+.footer {
+    background-color: #ffffff;
+}
+
+.copyright p {
+    
+    text-align: right;
+    margin: 47px;
+    margin-right: 104px;
+    font-size: 16pt;
+    font-family: 'Courier';
+}
+
+
