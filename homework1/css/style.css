@@ -24,7 +24,7 @@
     background-color: #f5f6f7;
     text-align: center;
     padding-top: 20px;
-    height: 850px;
+    padding-bottom: 94px;
 }
 
 .title h1 {
@@ -32,29 +32,36 @@
     font-size: 22pt;
 }
 
-.text-info {
+.general-text {
     text-align: center;
     font-family: 'Courier';
     font-size: 16pt;
-    margin: 110px 110px 41px 110px;
+    padding: 34px 110px;;
     
 }
 
-.button img {
-    position: absolute;
-    margin-bottom: 94px; 
- 
+.text-info {
+    
+    padding-bottom: 35px;
+}
+
+.button {
+    
+    width: 200px;
+    height: 60px;
+    
+    margin: 41px 540px 0px;  
+    
+    border-radius: 5px;
+    background-color: #16a085;
 }
 
 .button a {
-    position: relative;
+    line-height: 60px; /* расширяет строку*/
+    color:  white;
     text-decoration: none;
     text-transform: uppercase;
-    top: 16px;
-    right: -50px;
-    color: white; 
 }
-
 
 .footer {
     background-color: #ffffff;
