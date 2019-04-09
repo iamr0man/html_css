@@ -1,12 +1,10 @@
 body {
-    margin: 20px 20px;
     font-family: sans-serif;
 }
 
 .rambda {
     width: 1280px;
     padding: 60px 100px 30px;
-    border: 1px solid black;
 }
 
 .text-logo {
@@ -20,7 +18,7 @@ body {
     color: aqua;
 }
 
-.block-nav {
+.nav-bar {
     text-align: center;
 }
 
@@ -31,21 +29,30 @@ body {
     padding: 20px;
 }
 
-.block-link a{
+.block-link > a{
     padding: 20px 40px;
     text-decoration: none;
     color: white;
 }
 
-
-.block-menu {
-    width: 344px;
-    margin: 0 auto;
-    display: inline-block;
-    border: 1px solid #495863; 
+.block-link > a:hover {
+    background-color: #222f3a;
 }
 
-.block-menu li{
+
+.block-leftside {
+    width: 344px; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block-menu {
+    border: 1px solid #495863;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.block-menu > li{
     list-style-type: none;
 }
 
@@ -57,13 +64,24 @@ body {
     color: #495863;
 }
 
+.block-menu > li a:hover {
+    width: 83px;
+    padding-left: 69px;
+    padding-right: 190px;
+    color: black;
+    background-color: #dbdbdb;
+}
 
+.block-rightside {
+    display: inline-block;
+    width: 66%;
+}
 
 .block-logo-photo {
     width: 885px;
-    margin-left: 42px;
+    margin-left: 44px;
     border: 0.1px solid #495863;
-    display: inline-block;
+    margin-bottom: 50px;
 }
 
 
@@ -74,9 +92,37 @@ body {
 }
 
 .block-text {
-    width: 815px;
+    width: 827px;
 }
 
-.block-text p{
-    text-align: 0;
+.block-text {
+    font-size: 18px;
+    margin:  50px 30px 50px 70px;
+    text-align: left;
+}
+
+footer {
+    background-color: #b4b7ba;
+}
+
+.footer-menu {
+    padding: 20px 44px;
+}
+
+.footer-menu a{
+    font-size: 28px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-menu > a:hover {
+    text-decoration: underline;
+    color: #3181a6;
+}
+
+.copy {
+    margin-left: 209px;
+    font-size: 24px;
+    
 }
