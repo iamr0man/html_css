@@ -1,10 +1,7 @@
-body {
-    font-family: sans-serif;
-}
-
 .rambda {
     width: 1280px;
-    padding: 60px 100px 30px;
+    margin: 0 auto;
+    font-family: sans-serif;
 }
 
 .text-logo {
@@ -31,12 +28,17 @@ body {
 
 .block-link > a{
     padding: 20px 40px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+
     text-decoration: none;
     color: white;
 }
 
 .block-link > a:hover {
     background-color: #222f3a;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 
@@ -49,7 +51,7 @@ body {
 .block-menu {
     border: 1px solid #495863;
     display: inline-block;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .block-menu > li{
@@ -65,17 +67,17 @@ body {
 }
 
 .block-menu > li a:hover {
-    width: 83px;
     padding-left: 69px;
-    padding-right: 190px;
     color: black;
     background-color: #dbdbdb;
+    display: block;
 }
 
 .block-rightside {
     display: inline-block;
     width: 66%;
 }
+
 
 .block-logo-photo {
     width: 885px;
@@ -89,13 +91,16 @@ body {
     margin: 0 auto;
     padding: 74px;
     display: block;
+    transition: all 3s;
+    display: block;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.35);
 }
 
 .block-text {
     width: 827px;
-}
-
-.block-text {
     font-size: 18px;
     margin:  50px 30px 50px 70px;
     text-align: left;
