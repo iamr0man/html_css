@@ -1,0 +1,89 @@
+.conteiner {
+    width: 1366px;
+    margin: 0 auto;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.holidays {
+    padding: 0 153px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0,.3);
+    float: left;
+    color: white;
+}
+
+.header {
+    padding: 49px 0;
+    
+}
+
+i {
+    font-size: 53px;
+}
+
+.title {
+    width: 105px;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-family: 'Verdena' , sans-serif;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.contact {
+    width: 240px;
+    float: right;
+    padding-left: 647px;
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact > a {
+    float: right;
+}
+
+.block-tours {
+}
+
+.items-tour {
+    float: left;
+    margin-right: 63px;
+    margin-bottom: 60px;
+    border: 2px solid black;
+    border-image: linear-gradient(to top, black 0%, #adf2f7 100%);
+    border-image-slice: 1;
+}
+
+.items-tour > a {
+    display: block;
+    padding-top: 21px;
+    text-align: center;
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #f26522;
+}
+
+
+.mr0 {
+    margin-right: 0;
+}
