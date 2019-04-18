@@ -1,16 +1,18 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url(../img/background.png);
+    background-color: rgba(0, 0, 0,.3);
+    background-size: cover;
+/*    background-repeat: ;*/
+}
+
 .conteiner {
     width: 1366px;
     margin: 0 auto;
-    font-family: 'Poppins' , sans-serif;
+    font-family: 'Poppins' , sans-serif; 
 }
 
 .holidays {
-    padding: 0 153px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0,.3);
-    float: left;
+    padding: 0 153px;    
     color: white;
 }
 
@@ -19,43 +21,52 @@
     
 }
 
-i {
-    font-size: 53px;
+.header .logo {
+    width: 46px;
+    height: 44px;
+    float: left;
+    background: url(../img/logo.png);
 }
 
 .title {
     width: 105px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 26px;
     text-transform: uppercase;
     box-sizing: border-box;
-    font-family: 'Verdena' , sans-serif;
-    font-weight: 600;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: bold;
 }
 
 .small-text {
-    font-size: 16px;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+}
+
+a[href="http://www.milanholidays.in/"] {
+    margin-left: 15px;
 }
 
 .contact {
-    width: 240px;
     float: right;
-    padding-left: 647px;
     padding-top: 8px;
     font-weight: 600;
     font-size: 18px;
 }
-.contact > a {
-    float: right;
-}
 
-.block-tours {
+.number {
+    padding-left: 90px;
 }
 
 .items-tour {
+    display: block;
     float: left;
     margin-right: 63px;
     margin-bottom: 60px;
+}
+
+.photo-tour > img {
     border: 2px solid black;
     border-image: linear-gradient(to top, black 0%, #adf2f7 100%);
     border-image-slice: 1;
@@ -63,15 +74,24 @@ i {
 
 .items-tour > a {
     display: block;
-    padding-top: 21px;
+    padding-top: 16px;
     text-align: center;
-    clear: both;
 }
 
-.footer {
+.block-tours a > p {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.items-tour:nth-child(3n) {
+    margin-right: 0;
+}
+
+.footer p {
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     padding-bottom: 20px;
+    font-weight: 600;
 }
 
 a {
@@ -83,7 +103,12 @@ a:hover {
     color: #f26522;
 }
 
+.logo:hover {
+    background-image: url(../img/logo-hover.png);
+}
 
-.mr0 {
-    margin-right: 0;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
