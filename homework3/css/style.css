@@ -17,15 +17,15 @@ body {
 }
 
 .header {
-    padding: 49px 0;
+    padding: 30px 0;
     
 }
 
-.header .logo {
+.logo {
     width: 46px;
     height: 44px;
     float: left;
-    background: url(../img/logo.png);
+    content: url(../img/logo.png);
 }
 
 .title {
@@ -39,7 +39,7 @@ body {
 }
 
 .small-text {
-    font-size: 18px;
+    font-size: 17px;
     position: relative;
     top: -10px;
 }
@@ -60,7 +60,6 @@ a[href="http://www.milanholidays.in/"] {
 }
 
 .items-tour {
-    display: block;
     float: left;
     margin-right: 63px;
     margin-bottom: 60px;
@@ -72,16 +71,12 @@ a[href="http://www.milanholidays.in/"] {
     border-image-slice: 1;
 }
 
-.items-tour > a {
-    display: block;
+.items-tour a > p {
     padding-top: 16px;
     text-align: center;
+    font-weight: 500;
 }
 
-.block-tours a > p {
-    display: inline-block;
-    font-size: 18px;
-}
 
 .items-tour:nth-child(3n) {
     margin-right: 0;
@@ -104,7 +99,7 @@ a:hover {
 }
 
 .logo:hover {
-    background-image: url(../img/logo-hover.png);
+    content: url(../img/logo-hover.png);
 }
 
 .clearfix::after {
