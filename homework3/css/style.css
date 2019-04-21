@@ -19,11 +19,16 @@ body {
     
 }
 
+.castle {
+    display: inline-block;
+    width: 147px;
+}
+
 .logo {
     width: 46px;
     height: 44px;
     float: left;
-    content: url(../img/logo.png);
+    background-image: url(/img/logo.png);
 }
 
 .title {
@@ -55,10 +60,7 @@ body {
     padding-left: 90px;
 }
 
-.castle {
-    display: inline-block;
-    width: 148px;
-}
+
 
 .items-tour {
     float: left;
@@ -139,7 +141,7 @@ a:hover {
 
 
 .castle:hover .logo {
-    content: url(../img/logo-hover.png);
+    background: url(../img/logo-hover.png);
 }
 
 .castle:hover .title {
