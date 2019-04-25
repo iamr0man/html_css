@@ -1,4 +1,4 @@
-.journey {
+body {
     background-image: url(../img/background.png);
     background-size: cover;
     font-family: 'Lato', sans-serif;
@@ -7,11 +7,10 @@
 header {
     padding: 20px 85px;
     background: rgba(0, 0, 0, 0.4);
-    position: relative;
 }
 
 .title {
-    font-size: 21px;
+    font-size: 23px;
     float: left;
     text-transform: uppercase;
     color: #fff;
@@ -22,16 +21,16 @@ header {
     color: #3cb878;
 }
 
-.menu {
+.nav-menu {
+    float: right;
     position: relative;
 }
 
+
 .greeting {
-    float: right;
-    text-transform: capitalize;
+    font-size: 17px;
     text-decoration: none;
     color: #fff;
-    position: relative
 }
 
 .greeting:before {
@@ -46,7 +45,7 @@ header {
     height: 19px;
     background: url('../img/css_sprites.png') -106px -10px;
     position: absolute;
-    left: 79.6%;
+    left: -82%;
 }
 
 .bg-caledar:hover {
@@ -54,7 +53,7 @@ header {
     height: 19px;
     background: url('../img/css_sprites.png') -106px -49px;
     position: absolute;
-    left: 79.6%;
+    left: -82%;
 }
 
 .bg-forum {
@@ -62,7 +61,7 @@ header {
     height: 20px;
     background: url('../img/css_sprites.png') -10px -10px;
     position: absolute;
-    left: 82%;
+    left: -62%;
 }
 
 .bg-forum:hover {
@@ -70,7 +69,7 @@ header {
     height: 20px;
     background: url('../img/css_sprites.png') -58px -10px;
     position: absolute;
-    left: 82%;
+    left: -62%;
 }
 
 .bg-journey {
@@ -78,7 +77,7 @@ header {
     height: 20px;
     background: url('../img/css_sprites.png') -50px -50px;
     position: absolute;
-    left: 85%;
+    left: -35%;
 }
 
 .bg-journey:hover {
@@ -86,7 +85,7 @@ header {
     height: 20px;
     background: url('../img/css_sprites.png') -10px -50px;
     position: absolute;
-    left: 85%;
+    left: -35%;
 }
 
 .block-registration {
@@ -157,7 +156,6 @@ a:hover {
     float: left;
     background-color: #305db8;
     border-radius: 4px;
-    box-sizing: border-box;
     color: white;
     text-decoration: none;
 }
@@ -179,7 +177,6 @@ a:hover {
     float: right;
     background-color: #df4a32;
     border-radius: 4px;
-    box-sizing: border-box;
     color: white;
     text-decoration: none;
 }
@@ -194,9 +191,6 @@ a:hover {
 .google:hover {
     background-color: #c3412c;
     text-decoration: none;
-}
-
-.fields-full-name {
 }
 
 .decoration {
