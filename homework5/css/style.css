@@ -1,0 +1,141 @@
+.pricing {
+    width: 1175px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    border: 20px solid #3a4965;
+}
+
+.table-header {
+    border-right: 2px solid #cfcfcf;
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    height: 70px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+.table-data {
+    border-right: 2px solid #cfcfcf;
+    color: #484848;
+    width: 277px;
+    text-align: center;
+    padding: 28px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.table-row:nth-child(even) {
+    background: #e3e3e3;
+}
+
+.table-row:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.table-data:first-of-type,
+.table-header:first-of-type{
+    width: 310px;
+}
+
+.table-header:nth-child(even) {
+    font-size: 22px;
+}
+
+.table-header:nth-child(odd) {
+    font-size: 30px;
+}
+
+.bg-salat {
+    background-color: #89c331;
+}
+
+.bg-pink {
+    background-color: #f04a56;
+}
+
+.bg-green {
+    background-color: #20807c;
+}
+
+.bg-grey {
+    background-color: #484848;
+}
+
+.title {
+    text-transform: uppercase;
+    padding: 50px 35px;
+    color: #484848;
+}
+
+.table-header-price {
+    font-size: 60px;
+    font-weight: 600;
+    color: #484848;
+    vertical-align: middle;
+    border-right: 2px solid #cfcfcf;
+    position: relative;
+}
+
+.table-header-price::before {
+    content: ".99";
+    font-size: 28px;
+    position: absolute;
+    top: 24px;
+    left: 127px;
+}
+
+.small-text {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 8px;
+    color: #848484;
+}
+
+.table-row-btn:first-child {
+    border-color: #ddd;
+}
+
+.table-btn:first-child {
+    background-color: #ddd;
+}
+
+.table-btn:nth-child(even) {
+    background-color: #eee;
+}
+
+.table-btn:nth-child(3n) {
+    background-color: #f4f4f4;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 18px 45px;
+    border-radius: 6px;
+    line-height: 75px;
+}
+
+.bottom-g-dicoration {
+    background: linear-gradient(#484848 90%, #404040 10%);
+}
+
+.bottom-s-dicoration {
+    background: linear-gradient(#89c331 90%, #79b027 10%);
+}
+
+.bottom-p-dicoration {
+    background: linear-gradient(#f04a56 90%, #df3a46 10%);
+}
+
+.bottom-gr-dicoration {
+    background: linear-gradient(#20807c 90%, #16736f 10%);
+}
