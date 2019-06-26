@@ -319,6 +319,14 @@ footer {
     text-decoration: none;
 }
 
+.change-color-btn {
+    position: fixed;
+    padding: 10px;
+    top: 70px;
+    left: 70px;
+}
+
+
 @keyframes zoomInDown {
     from {
       opacity: 0;
